@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\AuthorController;
 use App\Http\Controllers\Api\BookController;
 use App\Http\Controllers\Api\CareerController;
+use App\Http\Controllers\Api\LendController;
 use App\Http\Controllers\Api\MatterController;
 use App\Http\Controllers\Api\PublishingController;
 use App\Http\Controllers\Api\StudentController;
@@ -32,4 +33,5 @@ Route::apiResources([
     'students' => StudentController::class,
     'publishings'=>PublishingController::class,
     'books' => BookController::class,
+    'lends'=> LendController::class,
 ]);
